@@ -9,13 +9,6 @@ We propose a scalable method for **generating verifiable CoT data to supervise t
 <p align="center">
     <img src="assets/overview.png" type="image/jpg"/>
 <p>
-    
-## Installation
-```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
 
 ## Released Resources 
 
@@ -30,6 +23,12 @@ You can download our dataset from [huggingface](https://huggingface.co/datasets/
 |Qwen3-4B|[🤗](https://huggingface.co/dongwonj/Qwen3-4B_code_execution_trace)|
 |Qwen3-8B|[🤗](https://huggingface.co/dongwonj/Qwen3-8B_code_execution_trace)|
 
+## Installation
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## Data Generation 🔧
 For our experiment, we used [Pyedu](https://huggingface.co/datasets/hkust-nlp/CodeIO-PyEdu-Reasoning-Raw) dataset released by [CodeI/O](https://huggingface.co/papers/2502.07316). If you want to reproduce our data generation, download the Pyedu dataset and place it under `data/`. For a quick start, we provide a small subset of the data under `data/`.
