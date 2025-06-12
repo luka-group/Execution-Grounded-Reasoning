@@ -1,9 +1,15 @@
 # Code Execution as Grounded Supervision for LLM Reasoning
 
+This is the official repository for [Code Execution as Grounded Supervision for LLM Reasoning]()
+
+## Abstract
+
+We propose a scalable method for **generating verifiable CoT data to supervise the reasoning process of LLM by leveraging the determinism of program execution**. Unlike existing reasoning dataset generation methods that rely on costly human annotations or error-prone LLM-generated CoT, our approach **extracts verifiable, step-by-step reasoning traces from code execution** and **transforms them into a natural language CoT reasoning**, producing highly accurate reasoning traces. Models trained on our generated data demonstrate superior reasoning abilities across various domains, while generating fewer tokens during inference, effectively reducing overthinking and meaningless repetition.
+
 <p align="center">
     <img src="assets/overview.png" type="image/jpg"/>
 <p>
-
+    
 ## Installation
 ```bash
 python -m venv venv
