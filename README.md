@@ -1,6 +1,6 @@
 # Code Execution as Grounded Supervision for LLM Reasoning
 
-This is the official repository for [Code Execution as Grounded Supervision for LLM Reasoning]()
+This is the official repository for [Code Execution as Grounded Supervision for LLM Reasoning](https://arxiv.org/pdf/2506.10343) (EMNLP 2025)
 
 ## Introduction
 
