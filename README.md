@@ -55,3 +55,12 @@ Our work builds upon and is inspired by the following projects. We sincerely app
 - [Snoop](https://github.com/alexmojaki/snoop)
 - [CodeIO](https://github.com/hkust-nlp/CodeIO)
 - [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory)
+
+## Citation
+```bibtex
+@article{jung2025code,
+  title={Code Execution as Grounded Supervision for LLM Reasoning},
+  author={Jung, Dongwon and Zhou, Wenxuan and Chen, Muhao},
+  journal={arXiv preprint arXiv:2506.10343},
+  year={2025}
+}
